@@ -24,7 +24,10 @@ $ pip install --upgrade google-api-python-client google-auth-httplib2 google-aut
 [Google Developer Console](https://console.developers.google.com/)からCUI用の認証情報を取得して、<br>
 `main.py`と同じ階層に`client_id.json`として保存してください。
 
+実行するとOAuth認証ページが開かれるのでGoogleアカウントでログインしてください。
+
 ```bash
+# 実行するとOAuth認証用のURLが発行される
 $ python main.py
 ```
 
@@ -45,6 +48,3 @@ $ python main.py
 
 ### `exit`
 アプリを終了します。
-
-## 参考
-- [Google Developer Console](https://console.developers.google.com/)
