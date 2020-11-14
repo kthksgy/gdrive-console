@@ -1,0 +1,7 @@
+# Google API
+client_id.json
+token.pickle
+
+# Python
+.venv/
+__pycache__/
